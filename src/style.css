@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color: var(--bg-color);
-    /* background-repeat: no-repeat;
-     background-size: cover; */
+    background-image: url(./fundo3.jpg);
+     background-repeat: no-repeat;
+     background-size: cover; 
     color: var(--primary-color);
     min-height: 100vh;
     display: flex;
