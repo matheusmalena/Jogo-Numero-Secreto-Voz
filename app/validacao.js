@@ -25,7 +25,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
         <h2>Parabéns, você acertou!</h2>
         <h3>O número secreto era ${numeroSecreto} </h3>
         <br>
-        <button class:"btn-jogar" id:"jogar-novamente"'>Jogar novamente</button>
+        <button class="btn-jogar" id="jogar-novamente"'>Jogar novamente</button>
         `
     }
 
@@ -49,6 +49,6 @@ function numeroForMaiorOuMenorQueOValorPermitido(numero) {
 
 document.body.addEventListener('click', s => {
     if (s.target.id == 'jogar-novamente') {
-        window.location.reload()
+        window.location.reload();
     }
 });
