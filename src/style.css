@@ -51,6 +51,7 @@ h3 {
     padding: 8px 15px;
     border: 0;
     background: var(--primary-color);
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
